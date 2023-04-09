@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-weight: 300;
+  color: #707070;
+}
+.fa-map-marker {
+  color: #707070;
+}
+nav a img {
+  width: 40%;
+  min-width: 30%;
+}
+.bg-green {
+  background-color: #28a745;
+}
+.navbar {
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+.nav-container {
+  max-width: 1080px;
+}
+.card {
+  width: 22rem;
+}
+.card-title, .price h5 {
+  font-size: 20pt;
+  font-weight: 300;
+}
+.card-text, .price p, .btn, footer p {
+  font-size: 16pt;
+  margin: 0;
+}
+.address {
+  font-size: 13pt;
+  /*MANUAL ALIGNMENT*/
+  top: 1.5px;
+  position: relative;
+}
+.price h5 {
+  color: #28a745;
+}
+.price h5, .btn {
+  font-weight: 500;
+}
+.newsletter {
+  color: white;
+}
+.newsletter h4 {
+  font-size: 21pt;
+}
+.btn {
+  font-weight: 500;
+  width: 110px;
+}
+.form-control {
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  min-width: 330px;
+}
+input::placeholder{
+  font-size: 16pt;
+  opacity: 0.5;
+  color: #707070;
+  font-weight: 300;
+}
+footer img {
+  width: 100px;
+  height: auto;
+}
+footer p {
+  line-height: 18pt;
+}
